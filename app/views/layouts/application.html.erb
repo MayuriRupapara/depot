@@ -31,11 +31,10 @@
 				</div>
 
 				<ul>
-					<li><%= t('.home') %></a></li>
-					<li><%= t('.questions') %></a></li>
-					<li><%= t('.news') %></a></li>
-					<li><%= t('.contact') %></a></li>
-					<%= button_to 'Login', login_path, method: :create %>
+					<li><a href="http://www...."><%= t('.home') %></a></li>
+					<li><a href="http://www..../faq"><%= t('.questions') %></a></li>
+					<li><a href="http://www..../news"><%= t('.news') %></a></li>
+					<li><a href="http://www..../contact"><%= t('.contact') %></a></li>
 				</ul>
 
 				<% if session[:user_id] %>
